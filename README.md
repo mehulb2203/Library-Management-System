@@ -1,5 +1,3 @@
 # Library-Management
 
-Working on building a Decentralized P2P Library Management System over Ethereum blockchain network for Major Project, 8th Semester.
-Tools and Libraries being used - Solidity, Web3.js, Ganache.cli and Javascript.
-
+Decentralized P2P Library Management System using Blockchain Technology. Developing Smart contract for the system and integrating it with UI.
