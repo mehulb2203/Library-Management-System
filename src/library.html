@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Library</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="library.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+	<div id = "h1" align="center"><b>KJSCE Library</b></div>
+
+	<div class="notify-container">
+		<div class = "notify-box" id = "notify-box">
+			<div class="notify-box-div-1">
+				<button class="cross-button" id="delete-notify">&#10006;</button>
+			</div>
+			<div class="notify-box-div-2" align="center">
+				<span id = "notify" style = "font-size: 20px">Confirm Recieved!</span>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+
+	<div class = "functions-container" align="center">
+		<div class = "content" align="center">
+			<input type="text" id="book-name" placeholder="Book Name">
+		</div>
+	   	<br><br>
+	   	<div class = "buttons" align="center">
+			<button type="button" id="recieved-button"><b>Recieved</b></button>
+			<button type="button" id="get-owner-button"><b>Get Owner</b></button>
+			<button type="button" id="get-status-button"><b>Get Status</b></button>
+			<button type="button" id="add-book-button"><b>Add book</b></button>
+			<button type="button" id="get-book-button"><b>Book List</b></button>
+		</div>
+		<br><br>
+		<div id = "output-div" align = center>
+			<span id ="output" align="center">Owner: Vishal Jain</span>
+		</div>
+		<br>
+		<div id = "balance" align = center>
+		<b>	Balance:</b>
+		<span id ="balance-output">0 ethers</span>
+	</div>
+	</div>
+
+	<script type="text/javascript" src="data.txt"></script>
+    <script type="text/javascript" src="library.js"></script>
+</body>
+</html>
